@@ -1,2 +1,14 @@
 # CSC115-Assignment-4-solved
-CSC115 Assignment  4 solved
+
+Download Here: [CSC115 Assignment  4 solved](https://jarviscodinghub.com/assignment/assignment-4-solution/)
+
+For Custom/Original Work email jarviscodinghub@gmail.com/whatsapp +1(541)423-7793
+
+Objectives     • Practice with searching and sorting algorithms • Exposure to Java Collection Part  II   Make sure you have the following files in the same directory for this part of the assignment. The three .class files provide is necessary for the tester to work. Fielder.java fielderData.txt ListOperations.java Pitcher.java pitcherData.txt Player.java PlayerAnalysis.java PlayerAnalysisSoln.class BAVGComparator.class ERAComparator.class PositionComparator.class TesterPart2.java In this part of the assignment you are to write methods that will process raw baseball player stats given to you in text files (fielderData.txt and pitcherData.txt). The data must be processed and an object created for each line entry following this class diagram:
+Use TesterPart2.java to test your methods.
+Player’ -position: String -name: String +getPosition():String +setPosition(String):void +getName():String +setName(String):void +toString():String +compareTo(Player):int
+Pitcher’ -era: float +getERA():float +setERA(float):void
+Fielder’ -battingAvg: int +getBattingAvg ():int +setBattingAvg (int):void
+Comparable<E’ <<interface’
++compareTo(E):int
+Step  1:   You may choose to override the toString() method in Fielder and Pitcher to give more information about the era and battingAvg when you print objects of those types. Step  2:   You need to complete the implementation of compareTo in the Player class. The tester tests the implementation of this method first. The correctness of the methods you implement in Step 3 will depend on it. Step  3:   For this part of the assignment you are welcome to use any of the methods provided in the Collections class (https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html). Implement the four methods in PlayerAnalysis.java tested by TesterPart1.java. You are welcome to add any private helper methods you see necessary. The last method maybe trickier but the first three are straightforward with the first two being mostly complete. Submission   Submit only your ListOperations.java, Player.java, Fielder.java, Pitcher.java and PlayerAnalysis.java and any other files that your classes depend on via conneX. Please be sure you submit your assignment, not just save a draft. Submit as many times as you want, your last submission will be the one graded. A reminder that it is OK to talk about your assignment with your classmates, and you are encouraged to design solutions together, but each student must implement their own solution. We will be using plagiarism detection software on your assignment submissions. Grading   If you submit something that does not compile, you will receive a grade of 0 for the assignment. It is your responsibility to make sure you submit the correct files. Requirement Marks Passes part 1 tests 12 Passes part 2 tests 11 Total 23
